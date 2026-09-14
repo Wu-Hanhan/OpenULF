@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+env/
+
+# Data (never commit — see DATA.md; datasets are obtained/generated locally)
+data/
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+*.tar
+
+# Trained weights (released separately on Zenodo, not in git)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+results/
+results_*/
+
+# Outputs / logs
+analysis/
+*.log
+*.csv
+*.png
+*.pdf
+
+# OS / editor
+.DS_Store
+.env

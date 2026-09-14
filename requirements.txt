@@ -1,0 +1,13 @@
+# OpenULF core dependencies (tested on Python 3.11, PyTorch 2.6 + CUDA 12.4)
+numpy>=1.24
+scipy>=1.10
+torch>=2.0
+h5py>=3.8
+nibabel>=5.0          # load BrainWeb / OASIS / IXI NIfTI volumes
+scikit-image>=0.21    # SSIM metric + traditional denoising baselines (NLM, TV)
+matplotlib>=3.7
+sigpy>=0.1.26         # SigPy-MRI baseline reconstruction
+
+# Optional: BM3D traditional baseline (imported lazily; only needed for the
+# BM3D comparison in eval_sigpy_baseline.py / evaluate_dataset.py)
+# bm3d>=4.0
