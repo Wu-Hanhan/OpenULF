@@ -119,19 +119,6 @@ See [DATA.md](DATA.md). Datasets are obtained from their official sources
 (subject-level splits, no leakage); the 774 trained checkpoints will be
 released on Zenodo (DOI) upon publication.
 
-## Citation
-
-If you use OpenULF, please cite:
-
-```bibtex
-@misc{wu2026openulf,
-  title     = {Quantum or Classical? Co-Design of Sensor and Reconstruction
-               for Ultra-Low-Field MRI},
-  author    = {Wu, Hanhan and Yuan, Yuchen and Jiang, Weiwen},
-  year      = {2026},
-}
-```
-
 ## License
 
 Source code: [MIT](LICENSE). Third-party datasets and any separately released
